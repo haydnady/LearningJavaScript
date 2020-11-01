@@ -26,9 +26,13 @@ const johnsMass = 92;
 const marksHeight = 1.69;
 const marksMass = 78;
 
-let johnsBMI = johnsMass / johnsHeight **2;
-let marksBMI = marksMass / (marksHeight * marksHeight);
+const johnsBMI = johnsMass / johnsHeight **2;
+const marksBMI = marksMass / (marksHeight * marksHeight);
 
-let markHigherBMI = (marksBMI > johnsBMI)
+const markHigherBMI = (marksBMI > johnsBMI)
 console.log("Mark BMI:", marksBMI, "John BMI", johnsBMI)
 console.log("Mark has higher BMI than John:", markHigherBMI)
+
+// Template literals
+const addedBMI = `Mark + John BMI: ${johnsBMI + marksBMI}`;
+console.log(addedBMI)
