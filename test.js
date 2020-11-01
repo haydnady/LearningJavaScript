@@ -26,8 +26,8 @@ const johnsMass = 92;
 const marksHeight = 1.69;
 const marksMass = 78;
 
-let johnsBMI = johnsMass / johnsHeight **2 / (johnsHeight * johnsHeight);
-let marksBMI = marksMass / marksHeight **2 / (marksHeight * marksHeight);
+let johnsBMI = johnsMass / johnsHeight **2;
+let marksBMI = marksMass / (marksHeight * marksHeight);
 
 let markHigherBMI = (marksBMI > johnsBMI)
 console.log("Mark has higher BMI than John:", markHigherBMI)
