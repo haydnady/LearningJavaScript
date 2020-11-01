@@ -30,4 +30,5 @@ let johnsBMI = johnsMass / johnsHeight **2;
 let marksBMI = marksMass / (marksHeight * marksHeight);
 
 let markHigherBMI = (marksBMI > johnsBMI)
+console.log("Mark BMI:", marksBMI, "John BMI", johnsBMI)
 console.log("Mark has higher BMI than John:", markHigherBMI)
