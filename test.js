@@ -36,3 +36,13 @@ console.log("Mark has higher BMI than John:", markHigherBMI)
 // Template literals
 const addedBMI = `Mark + John BMI: ${johnsBMI + marksBMI}`;
 console.log(addedBMI)
+
+// If else statements
+if (johnsBMI > marksBMI)
+{
+    console.log(`John's BMI is ${johnsBMI} higher than Mark's BMI`)
+}
+else
+{
+    console.log(`Mark's's BMI is ${marksBMI} higher than John's BMI`)
+}
