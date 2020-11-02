@@ -46,3 +46,12 @@ else
 {
     console.log(`Mark's's BMI is ${marksBMI} higher than John's BMI`)
 }
+
+// Prompt
+const favoriteNumber = prompt("What is you favorite number: ")
+console.log(`Your favorite number is: ${favoriteNumber}`)
+
+// Tenary
+const age = 40
+const drink =  age >= 18? "Wine":"Water";
+console.log(`I can drink ${drink}`)
