@@ -28,4 +28,9 @@ const calcAge = function (birthYear)
     return 2037 - birthYear;
 }
 
-console.log(`Your age is ${calcAge(2018)}`)
+console.log(`Your age is ${calcAge(2018)}`);
+
+
+// Special function expression
+const calcAge2 = birthYear => 2037 - birthYear;
+console.log(`Your age is ${calcAge2(2015)}`);
