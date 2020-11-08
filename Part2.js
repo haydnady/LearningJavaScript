@@ -1,5 +1,6 @@
 "use strict";
 
+// Function declaration
 function logger()
 {
     console.log(`JavaScript is FUN!!!`);
@@ -20,3 +21,11 @@ function fruitProcessor(apples, oranges)
 
 const order = fruitProcessor(5, 9);
 console.log(`You order is: ${order}`)
+
+// Function expression
+const calcAge = function (birthYear)
+{
+    return 2037 - birthYear;
+}
+
+console.log(`Your age is ${calcAge(2018)}`)
