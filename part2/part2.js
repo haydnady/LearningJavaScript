@@ -63,3 +63,14 @@ function checkWinner(dataOne, dataTwo, teamOneName, teamTwoName)
 }
 
 checkWinner(avgDolphins, avgKoalas, "Dolphins", "Koalas");
+
+
+// Data structure arrays
+ const friends = ["Ven", "Tren", "Zen"];
+ friends.push("Jyen"); // Adds to end of array
+ friends.unshift("Gen"); // Adds to begining of array
+ console.log(`Friends array: ${friends}`);
+ friends.pop("Zen"); // Removes from the array
+ console.log(`New friends array: ${friends}`);
+ friends.shift(); // Removes 1st element from the array
+ console.log(`New friends array with 1st element removed: ${friends}`);
