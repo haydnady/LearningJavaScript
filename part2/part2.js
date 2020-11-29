@@ -96,3 +96,12 @@ for (let i = 4; i >= 1; i--)
 {
     console.log(`Countdown: ${i}`)
 }
+
+// While loop (horrible example)
+let rep = 2
+while (rep === 2)
+{
+    console.log(`Squat ${rep}`);
+    rep = 1
+    console.log(`Squat ${rep}`);
+}
