@@ -74,3 +74,13 @@ checkWinner(avgDolphins, avgKoalas, "Dolphins", "Koalas");
  console.log(`New friends array: ${friends}`);
  friends.shift(); // Removes 1st element from the array
  console.log(`New friends array with 1st element removed: ${friends}`);
+
+// Object
+const jonas = {
+    firstName: "Jonas",
+    lastName: "Sc",
+    age: 45,
+    friends: ["Ben", "Boe", "Tan"]
+} 
+
+console.log(jonas.firstName);
