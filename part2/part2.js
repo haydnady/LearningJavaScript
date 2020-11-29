@@ -90,3 +90,9 @@ for (let rep = 1; rep <= 10; rep++)
 {
     console.log(`Rep ${rep} 🏋️‍♀️`)
 }
+
+// For loop backward
+for (let i = 4; i >= 1; i--)
+{
+    console.log(`Countdown: ${i}`)
+}
