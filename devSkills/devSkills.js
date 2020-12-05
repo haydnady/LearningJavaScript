@@ -9,23 +9,16 @@ const myObject = {
 
 console.table(myObject);
 
-function printForcast(theArray)
+function printForcast(theArray) 
 {
-    for (var i = 0; i < theArray.length; i++)
+    let str = "";
+    for (var i = 0; i < theArray.length; i++) 
     {
-        if (i == 0)
-        {
-            console.log(`... ${theArray[0]}C in ${i+1} days`);
-        }
-        else if ((i+1) == theArray.length)
-        {
-            console.log(`... ${theArray[-1]}C in ${i+1} days`);
-        }
-        else
-        {
-            console.log(`... ${theArray[i]}C in ${i+1} days ...`);
-        }
+
+        str += (`${theArray[i]}C in ${i + 1} days ... `);
     }
+
+    return "... " + str
 }
 
 console.log(printForcast([17, 21, 23]));
