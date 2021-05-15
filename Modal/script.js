@@ -7,6 +7,7 @@ const btnsOpenModal = document.querySelectorAll(".show-modal");
 
 // console.log(btnsOpenModal);
 
+// Open modal function.
 const openModal = function() 
 {
     console.log("Button Clicked!");
@@ -14,6 +15,7 @@ const openModal = function()
     overlay.classList.remove("hidden");
 }
 
+// Close modal function.
 const hideModal = function()
 {
     modal.classList.add("hidden");
@@ -28,3 +30,8 @@ for (let i = 0; i < btnsOpenModal.length; i++)
 
 btnCloseModal.addEventListener("click", hideModal);
 overlay.addEventListener("click", hideModal);
+
+document.addEventListener("keydown", function()
+{
+ 
+});
