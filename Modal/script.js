@@ -22,6 +22,7 @@ const hideModal = function()
     overlay.classList.add("hidden");
 }
 
+
 // Click event for all modals.
 for (let i = 0; i < btnsOpenModal.length; i++)
 {
@@ -38,7 +39,9 @@ document.addEventListener("keydown", function(e)
 
     if (e.key === "Escape" && !modal.classList.contains("hidden")) 
     {
-        hideModal();
+        // hideModal();
+        modal.classList.toggle("hidden");
+        overlay.classList.toggle("hidden");
     }
 });
 
