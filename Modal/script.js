@@ -33,8 +33,12 @@ overlay.addEventListener("click", hideModal);
 
 document.addEventListener("keydown", function(e)
 {
+    // Key event
+    console.log(e)
+
     if (e.key === "Escape" && !modal.classList.contains("hidden")) 
     {
         hideModal();
     }
 });
+
